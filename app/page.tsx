@@ -13,7 +13,6 @@ export default function Home() {
     <About />
     <Service />
     <Work />
-    <Testimonial />
     <Contact />
     <h1>Hey yo man, Gusta</h1>
     </>

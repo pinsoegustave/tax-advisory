@@ -11,7 +11,7 @@ const Service = () => {
         <div className="w-1/2 mx-auto">
         <p className="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore soluta autem, voluptatem fugiat laudantium ad quam cum maiores sint odit quidem beatae, libero dolorem possimus architecto quod at. Nesciunt, reiciendis.</p>
         </div>
-        <div className="mt-5 w-4/5 rounded-l-lg bg-white border mx-auto  flex shadow-md">
+        <div className="mt-5 w-4/5 rounded-l-lg bg-white border mx-auto block md:flex shadow-md">
           <div className=" rounded-l-lg">
           <Image 
           src={`/service.png`}
@@ -21,9 +21,9 @@ const Service = () => {
           className="rounded-l-lg"
           />
           </div>
-          <div className="w-3/6 my-auto ">
+          <div className="w-full md:w-3/6 my-auto ">
           <p className="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum delectus possimus, ipsum numquam earum tempore temporibus labore modi recusandae consequatur. Quidem aut ratione voluptatem et adipisci aperiam omnis, nihil similique.Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum delectus possimus, ipsum numquam earum tempore temporibus labore modi recusandae consequatur. Quidem aut ratione voluptatem et adipisci aperiam omnis, nihil similique.</p>
-          <div className="flexCenter">
+          <div className="flexCenter py-4 md:py-0">
           <Button 
           type="button"
           title="Work with us"
