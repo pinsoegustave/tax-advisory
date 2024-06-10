@@ -14,7 +14,6 @@ export default function Home() {
     <Service />
     <Work />
     <Contact />
-    <h1>Hey yo man, Gusta</h1>
     </>
     
 );

@@ -8,10 +8,10 @@ const Service = () => {
       <div className="text-center">
         <p>Our Service</p> <br />
         <h1 className="text-green-50 bold-40">What Service We Offer</h1>
-        <div className="w-1/2 mx-auto">
-        <p className="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore soluta autem, voluptatem fugiat laudantium ad quam cum maiores sint odit quidem beatae, libero dolorem possimus architecto quod at. Nesciunt, reiciendis.</p>
+        <div className="md:w-1/2 mx-auto">
+        <p className="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore soluta autem, voluptatem fugiat laudantium.</p>
         </div>
-        <div className="mt-5 w-4/5 rounded-l-lg bg-white border mx-auto block md:flex shadow-md">
+        <div className="mt-5 w-full md:w-4/5 rounded-l-lg bg-white border mx-auto block md:flex shadow-md">
           <div className=" rounded-l-lg">
           <Image 
           src={`/service.png`}

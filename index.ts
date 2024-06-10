@@ -20,12 +20,6 @@ export const NAVLINKS  = [
         'label': 'work'
     },
     {
-        'id': 5,
-        'name': 'Testimonials',
-        'link': '#test',
-        'label': 'test'
-    },
-    {
         'id': 6,
         'name': 'Contact',
         'link': '#contact',
