@@ -15,7 +15,7 @@ const Header = () => {
   };
   return (
     <nav className="flexBetween padding-container max-container relative z-10 py-5">
-      <div className="">
+      <div className=" bg-black">
         <Image
           src={"/Numetric.png"}
           alt="logo"
@@ -25,7 +25,7 @@ const Header = () => {
         />
       </div>
       <div className="flexCenter">
-        <ul className="hidden h-full lg:flex gap-4 text-white">
+        <ul className="hidden h-full lg:flex gap-4 text-black">
           {NAVLINKS.map((navs) => (
             <Link href={navs.link} key={navs.label} className="">
               <li>{navs.name}</li>
